@@ -1,0 +1,14 @@
+a.related {
+    position: relative;
+    padding-left: 15px
+}
+
+a.related:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #999;
+    position: absolute;
+    left: 0;
+    top: 5px
+}
